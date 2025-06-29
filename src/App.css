@@ -8,6 +8,7 @@
   default: true;
   --color-primary: #4831d4;
   --color-secondary: #cbf380;
+  --color-accent: #3d155f;
 }
 
 
@@ -26,4 +27,14 @@
 body {
   font-family: "sf-ui", sans-serif;
 }
-    
+
+html {
+  scroll-behavior: smooth;
+}
+
+#fp-nav ul li:last-child,
+.fp-watermark {
+  display: none !important;
+}
+
+   

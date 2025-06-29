@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.48",
     "@tailwindcss/vite": "^4.1.11",
     "preline": "^3.1.0",
     "react": "^19.1.0",

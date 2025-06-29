@@ -14,8 +14,8 @@ const Navbar = () => {
          <div>
                 <ul className='flex gap-5 items-center'>
                     <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
                     <button className='btn'> resume</button>
                    
                 </ul>
