@@ -7,7 +7,7 @@ import middleBg from '../assets/middleBg.svg'
  
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-white ">
+    <div id="hero" className="min-h-screen bg-white ">
       <div className="grid relative    mb-100 grid-cols-9">
      
       <img className="absolute left-230 w-[650px] z-10 top-35" src={middleBg} alt="" />

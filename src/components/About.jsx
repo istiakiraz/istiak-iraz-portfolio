@@ -13,7 +13,7 @@ const About = () => {
           <h3 className="text-3xl text-primary font-semibold">
             My Journey Through Code
           </h3>
-          <p className="text-accent  w-9/12 mt-5">
+          <p className="text-accent   w-9/12 mt-5">
             I'm a passionate frontend developer who loves building responsive
             and user-friendly web applications using React and Tailwind CSS. So
             far, I’ve worked on projects like task management tools, freelancer

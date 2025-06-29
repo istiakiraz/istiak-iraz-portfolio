@@ -1,13 +1,14 @@
 import React from "react";
 import coding from "../assets/Coding-bro (2).svg";
 import bgImg from "../assets/skillBg.png";
+import TechLogo from "./TechLogo";
 
 const Skills = () => {
   return (
     <div className=" lg:px-40 relative h-screen overflow-hidden pt-20 lg:pl-70">
         <img className="absolute opacity-15 -top-100 w-[1200px] -rotate-[20px] -right-80 overflow-hidden z-10" src={bgImg} alt="" />
 
-      <div className="flex  mt-15 items-center mx-auto ">
+      <div className="flex  mt-5 items-center mx-auto ">
 
         <div className="flex-1">
           <h1 className="text-7xl font-bold text-primary">My Tech & 
@@ -30,9 +31,13 @@ const Skills = () => {
 
         <div className="flex-1 ">
             
-          <img className="w-[650px]  z-20 " src={coding} alt="" />
+          <img className="w-[650px]  z-20 " src={coding} alt="coding" />
         </div>
+         
       </div>
+     <div className="z-100 relative" >
+        <TechLogo></TechLogo>
+     </div>
     </div>
   );
 };

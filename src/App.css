@@ -11,6 +11,9 @@
   --color-accent: #3d155f;
 }
 
+p::selection {
+  background-color: #4731d436;
+}
 
 @font-face {
   font-family: "sf-ui";
@@ -35,6 +38,35 @@ html {
 #fp-nav ul li:last-child,
 .fp-watermark {
   display: none !important;
+}
+
+
+/* Navigation container position */
+#fp-nav {
+  right: 30px; /* Move from right edge */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Navigation dots */
+#fp-nav ul li a span {
+  background: #cbf380;         /* dot color */
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  /* transition: background 0.3s, transform 0.3s; */
+}
+
+/* Active dot style */
+#fp-nav ul li a.active span {
+  background: #4831d4;          /* primary color */
+  transform: scale(1.4);        /* slightly larger */
+}
+
+/* Optional: hover effect */
+#fp-nav ul li a:hover span {
+  background: #ffffff;
+  transform: scale(1.2);
 }
 
    

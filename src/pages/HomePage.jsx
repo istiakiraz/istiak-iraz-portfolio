@@ -17,8 +17,8 @@ const HomePage = () => {
       <ReactFullpage
         scrollingSpeed={500}
         navigation
-        controlArrows={true}
-        slidesNavigation={true}
+       
+         anchors={['hero', 'about', 'skills', 'projects']}
         render={() => {
           return (
             <ReactFullpage.Wrapper>
@@ -33,10 +33,10 @@ const HomePage = () => {
                 <Skills></Skills>
               </div>
 
-              <div className="section">
+              {/* <div className="section">
               <Projects></Projects>
            
-              </div>
+              </div> */}
 
 
               <div className="section">
