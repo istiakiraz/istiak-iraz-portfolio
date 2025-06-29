@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: light --default, dark ;
+ }
+
+ @plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #4831d4;
+  --color-secondary: #cbf380;
+}
+
+
+@font-face {
+  font-family: "sf-ui";
+  src: url("../sf-ui-text-regular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "sf-ui";
+  src: url("../sf-ui-text-bold.woff");
+  font-weight: bold;
+}
+
+body {
+  font-family: "sf-ui", sans-serif;
+}
+    
