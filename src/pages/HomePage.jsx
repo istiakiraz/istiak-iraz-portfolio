@@ -5,6 +5,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 
 const HomePage = () => {
@@ -33,14 +34,14 @@ const HomePage = () => {
                 <Skills></Skills>
               </div>
 
-              {/* <div className="section">
+              <div className="section ">
               <Projects></Projects>
            
-              </div> */}
+              </div>
 
 
               <div className="section">
-                <About />
+                <Contact />
               </div>
 
               

@@ -26,6 +26,11 @@ p::selection {
   src: url("../sf-ui-text-bold.woff");
   font-weight: bold;
 }
+@font-face {
+  font-family: "sf-ui";
+  src: url("../sf-ui-text-light.woff");
+  font-weight: thin;
+}
 
 body {
   font-family: "sf-ui", sans-serif;

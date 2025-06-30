@@ -1,7 +1,7 @@
 import React from "react";
 import aboutPic1 from '../assets/about1.svg'
 import aboutPic2 from '../assets/about2.svg'
-import aboutPic3 from '../assets/about3.svg'
+// import aboutPic3 from '../assets/about3.svg'
 
 const About = () => {
   return (
