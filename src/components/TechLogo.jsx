@@ -27,8 +27,8 @@ const TechLogo = () => {
   className="overflow-hidden" >
         {
             logos.map((logo, index) =>(
-                <div key={index} className="mx-14 cursor-grab py-5 pt-6 -mt-5 hover:scale-110 transition-transform duration-300 scroll-none flex items-center"  >
-                    <img className="h-16 object-contain filter grayscale hover:grayscale-0 transition duration-300 " src={logo} alt="logo" />
+                <div key={index} className="lg:mx-14 mx-6 cursor-grab py-5 pt-6 -mt-5 hover:scale-110 transition-transform duration-300 scroll-none flex items-center"  >
+                    <img className="lg:h-16 h-10 object-contain filter grayscale hover:grayscale-0 transition duration-300 " src={logo} alt="logo" />
 
                 </div>
             ))
